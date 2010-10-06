@@ -17,6 +17,11 @@ Then build the code.
 Install the calendar into your app.
 	cp calendarmodule-iphone-xxx.zip ~/Library/Application\ Support/Titanium/
 
+Finally, in your app's tiapp.xml file:
+	<modules>
+  	  <module version="xxx">calendarmodule</module>
+  	</modules>
+  
 You'll need to at least touch your iPhone app before including it (assuming you're building with Xcode, not Titanium).
 
 == Basic Usage
@@ -50,5 +55,7 @@ The component is able to show that there is an event on a certain date with a do
 You can also use the calendar to save a date (and this needs to be refactored):
 
 	calendarView.saveEvent(start, end, event.summary, event.location, event.description);
+
+Note: this requires the EventKit Framework to be included for this to work.
 
 That's pretty much it!  Any edits/improvements are appreciated.
