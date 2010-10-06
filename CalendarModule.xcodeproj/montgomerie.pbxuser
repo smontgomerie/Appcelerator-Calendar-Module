@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = D2AAC07D0554694100DB518D /* CalendarModule */;
+		addToTargets = (
+		);
+		breakpoints = (
+			2F895DD111F95C3000C6E55B /* TiCalendarView.m:27 */,
+			2FD2B1CA121E63B600D37686 /* TiCalendarView.m:30 */,
+		);
+		codeSenseManager = 2F895A9611F8A99200C6E55B /* Code sense */;
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					622,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					582,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 306136783;
+			PBXWorkspaceStateSaveDate = 306136783;
+		};
+		perUserProjectItems = {
+			2FD9F99B123FDD9400632593 /* PBXTextBookmark */ = 2FD9F99B123FDD9400632593 /* PBXTextBookmark */;
+			2FD9F99D123FDD9400632593 /* PBXTextBookmark */ = 2FD9F99D123FDD9400632593 /* PBXTextBookmark */;
+			2FD9F99F123FDD9400632593 /* PBXTextBookmark */ = 2FD9F99F123FDD9400632593 /* PBXTextBookmark */;
+			2FD9F9D7123FE1C600632593 /* PBXTextBookmark */ = 2FD9F9D7123FE1C600632593 /* PBXTextBookmark */;
+			2FD9F9E0123FE2D700632593 /* PBXTextBookmark */ = 2FD9F9E0123FE2D700632593 /* PBXTextBookmark */;
+			2FD9F9E1123FE2D700632593 /* PBXTextBookmark */ = 2FD9F9E1123FE2D700632593 /* PBXTextBookmark */;
+			2FD9F9E2123FE2D700632593 /* PBXTextBookmark */ = 2FD9F9E2123FE2D700632593 /* PBXTextBookmark */;
+			2FD9FA2E124070C900632593 /* PBXTextBookmark */ = 2FD9FA2E124070C900632593 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2F895A9511F8A99200C6E55B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	24DD6CF71134B3F500162E58 /* CalendarModule.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 337}}";
+			sepNavSelRange = "{226, 0}";
+			sepNavVisRange = "{0, 238}";
+			sepNavWindowFrame = "{{15, 68}, {1015, 705}}";
+		};
+	};
+	24DD6CF81134B3F500162E58 /* CalendarModule.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 1261}}";
+			sepNavSelRange = "{440, 34}";
+			sepNavVisRange = "{0, 506}";
+			sepNavWindowFrame = "{{15, 68}, {1015, 705}}";
+		};
+	};
+	24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {852, 337}}";
+			sepNavSelRange = "{551, 0}";
+			sepNavVisRange = "{0, 551}";
+		};
+	};
+	2F895A9511F8A99200C6E55B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	2F895A9611F8A99200C6E55B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2F895AD811F8B5ED00C6E55B /* TiCalendarViewProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 337}}";
+			sepNavSelRange = "{519, 28}";
+			sepNavVisRange = "{0, 553}";
+			sepNavWindowFrame = "{{15, 67}, {1015, 705}}";
+		};
+	};
+	2F895AD911F8B5ED00C6E55B /* TiCalendarViewProxy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 1378}}";
+			sepNavSelRange = "{938, 12}";
+			sepNavVisRange = "{748, 385}";
+			sepNavWindowFrame = "{{15, 67}, {1015, 705}}";
+		};
+	};
+	2F895ADC11F8B60300C6E55B /* TiCalendarView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 546}}";
+			sepNavSelRange = "{957, 0}";
+			sepNavVisRange = "{467, 552}";
+			sepNavWindowFrame = "{{15, 57}, {750, 719}}";
+		};
+	};
+	2F895ADD11F8B60300C6E55B /* TiCalendarView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 4069}}";
+			sepNavSelRange = "{5355, 0}";
+			sepNavVisRange = "{5190, 700}";
+			sepNavWindowFrame = "{{15, 57}, {750, 719}}";
+		};
+	};
+	2F895B5211F8E59500C6E55B /* Calendar.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 337}}";
+			sepNavSelRange = "{304, 0}";
+			sepNavVisRange = "{0, 334}";
+		};
+	};
+	2F895B5311F8E59500C6E55B /* Calendar.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 337}}";
+			sepNavSelRange = "{467, 0}";
+			sepNavVisRange = "{0, 476}";
+		};
+	};
+	2F895C2A11F8FA8F00C6E55B /* CalendarProxy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 337}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 323}";
+		};
+	};
+	2F895C2B11F8FA8F00C6E55B /* CalendarProxy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 337}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 325}";
+		};
+	};
+	2F895D1111F903D600C6E55B /* CheckmarkTile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 337}}";
+			sepNavSelRange = "{85, 6}";
+			sepNavVisRange = "{0, 169}";
+		};
+	};
+	2F895D1211F903D600C6E55B /* CheckmarkTile.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1321, 577}}";
+			sepNavSelRange = "{1060, 0}";
+			sepNavVisRange = "{0, 1125}";
+			sepNavWindowFrame = "{{15, 68}, {1015, 705}}";
+		};
+	};
+	2F895D1411F903D600C6E55B /* KLCalendarModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 650}}";
+			sepNavSelRange = "{1537, 0}";
+			sepNavVisRange = "{1175, 661}";
+		};
+	};
+	2F895D1511F903D600C6E55B /* KLCalendarModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 2236}}";
+			sepNavSelRange = "{1765, 35}";
+			sepNavVisRange = "{1433, 676}";
+		};
+	};
+	2F895D1611F903D600C6E55B /* KLCalendarView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 1079}}";
+			sepNavSelRange = "{3117, 90}";
+			sepNavVisRange = "{2273, 997}";
+			sepNavWindowFrame = "{{13, 68}, {1015, 705}}";
+		};
+	};
+	2F895D1711F903D600C6E55B /* KLCalendarView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1391, 7020}}";
+			sepNavSelRange = "{4049, 9}";
+			sepNavVisRange = "{3783, 533}";
+			sepNavWindowFrame = "{{13, 68}, {1015, 705}}";
+		};
+	};
+	2F895D1811F903D600C6E55B /* KLColors.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 546}}";
+			sepNavSelRange = "{1502, 49}";
+			sepNavVisRange = "{722, 1136}";
+		};
+	};
+	2F895D1911F903D600C6E55B /* KLColors.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 988}}";
+			sepNavSelRange = "{1939, 0}";
+			sepNavVisRange = "{1618, 1230}";
+		};
+	};
+	2F895D1A11F903D600C6E55B /* KLDate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 1092}}";
+			sepNavSelRange = "{2812, 0}";
+			sepNavVisRange = "{2408, 429}";
+		};
+	};
+	2F895D1B11F903D600C6E55B /* KLDate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 3562}}";
+			sepNavSelRange = "{3887, 56}";
+			sepNavVisRange = "{4445, 659}";
+			sepNavWindowFrame = "{{15, 68}, {1015, 705}}";
+		};
+	};
+	2F895D1E11F903D600C6E55B /* KLGridView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 663}}";
+			sepNavSelRange = "{1463, 0}";
+			sepNavVisRange = "{1256, 644}";
+			sepNavWindowFrame = "{{15, 68}, {1015, 705}}";
+		};
+	};
+	2F895D1F11F903D600C6E55B /* KLGridView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {922, 2158}}";
+			sepNavSelRange = "{5552, 22}";
+			sepNavVisRange = "{5175, 509}";
+			sepNavWindowFrame = "{{15, 68}, {1015, 705}}";
+		};
+	};
+	2F895D2011F903D600C6E55B /* KLTile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 702}}";
+			sepNavSelRange = "{1579, 6}";
+			sepNavVisRange = "{1320, 561}";
+		};
+	};
+	2F895D2111F903D600C6E55B /* KLTile.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 3523}}";
+			sepNavSelRange = "{3011, 23}";
+			sepNavVisRange = "{2583, 591}";
+			sepNavWindowFrame = "{{15, 68}, {1015, 705}}";
+		};
+	};
+	2F895D2511F903D600C6E55B /* THCalendarInfo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 1573}}";
+			sepNavSelRange = "{1072, 0}";
+			sepNavVisRange = "{734, 802}";
+		};
+	};
+	2F895D2611F903D600C6E55B /* THCalendarInfo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1335, 7683}}";
+			sepNavSelRange = "{1156, 20}";
+			sepNavVisRange = "{12519, 469}";
+		};
+	};
+	2F895DD111F95C3000C6E55B /* TiCalendarView.m:27 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2F895ADD11F8B60300C6E55B /* TiCalendarView.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 27;
+		modificationTime = 304058589.116886;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	2FD2B1CA121E63B600D37686 /* TiCalendarView.m:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2F895ADD11F8B60300C6E55B /* TiCalendarView.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		location = HomeFinder;
+		modificationTime = 304058589.117323;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	2FD9F907123FD06800632593 /* MroBinarySearch.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1083, 858}}";
+			sepNavSelRange = "{613, 0}";
+			sepNavVisRange = "{373, 578}";
+		};
+	};
+	2FD9F908123FD06800632593 /* MroBinarySearch.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 1989}}";
+			sepNavSelRange = "{1174, 13}";
+			sepNavVisRange = "{597, 867}";
+		};
+	};
+	2FD9F90B123FD0D900632593 /* KLDateSort.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {800, 897}}";
+			sepNavSelRange = "{280, 0}";
+			sepNavVisRange = "{0, 539}";
+		};
+	};
+	2FD9F90C123FD0D900632593 /* KLDateSort.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {841, 2626}}";
+			sepNavSelRange = "{4496, 0}";
+			sepNavVisRange = "{4747, 644}";
+		};
+	};
+	2FD9F961123FD7B100632593 /* NSArray.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSArray.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1307, 2106}}";
+			sepNavSelRange = "{422, 39}";
+			sepNavVisRange = "{74, 852}";
+		};
+	};
+	2FD9F99B123FDD9400632593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2FD9F907123FD06800632593 /* MroBinarySearch.h */;
+		name = "MroBinarySearch.h: 26";
+		rLen = 0;
+		rLoc = 651;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 250;
+	};
+	2FD9F99D123FDD9400632593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2FD9F961123FD7B100632593 /* NSArray.h */;
+		name = "NSArray.h: 17";
+		rLen = 39;
+		rLoc = 422;
+		rType = 0;
+		vrLen = 852;
+		vrLoc = 74;
+	};
+	2FD9F99F123FDD9400632593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2FD9F90B123FD0D900632593 /* KLDateSort.h */;
+		name = "KLDateSort.h: 13";
+		rLen = 0;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 539;
+		vrLoc = 0;
+	};
+	2FD9F9D7123FE1C600632593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2FD9F908123FD06800632593 /* MroBinarySearch.m */;
+		name = "MroBinarySearch.m: 42";
+		rLen = 13;
+		rLoc = 1174;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 597;
+	};
+	2FD9F9E0123FE2D700632593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2F895D1B11F903D600C6E55B /* KLDate.m */;
+		name = "KLDate.m: 117";
+		rLen = 56;
+		rLoc = 3887;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 4445;
+	};
+	2FD9F9E1123FE2D700632593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2FD9F90C123FD0D900632593 /* KLDateSort.m */;
+		name = "KLDateSort.m: 19";
+		rLen = 0;
+		rLoc = 538;
+		rType = 0;
+		vrLen = 689;
+		vrLoc = 147;
+	};
+	2FD9F9E2123FE2D700632593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2F895ADD11F8B60300C6E55B /* TiCalendarView.m */;
+		name = "TiCalendarView.m: 221";
+		rLen = 0;
+		rLoc = 5355;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 5190;
+	};
+	2FD9FA2E124070C900632593 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2F895ADD11F8B60300C6E55B /* TiCalendarView.m */;
+		name = "TiCalendarView.m: 221";
+		rLen = 0;
+		rLoc = 5355;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 5190;
+	};
+	D2AAC07D0554694100DB518D /* CalendarModule */ = {
+		activeExec = 0;
+	};
+}

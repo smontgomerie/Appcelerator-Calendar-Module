@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* CalendarModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* CalendarModule.h */; };
+		24DD6CFA1134B3F500162E58 /* CalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* CalendarModule.m */; };
+		2F895ADA11F8B5ED00C6E55B /* TiCalendarViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895AD811F8B5ED00C6E55B /* TiCalendarViewProxy.h */; };
+		2F895ADB11F8B5ED00C6E55B /* TiCalendarViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895AD911F8B5ED00C6E55B /* TiCalendarViewProxy.m */; };
+		2F895ADE11F8B60300C6E55B /* TiCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895ADC11F8B60300C6E55B /* TiCalendarView.h */; };
+		2F895ADF11F8B60300C6E55B /* TiCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895ADD11F8B60300C6E55B /* TiCalendarView.m */; };
+		2F895B5411F8E59500C6E55B /* Calendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895B5211F8E59500C6E55B /* Calendar.h */; };
+		2F895B5511F8E59500C6E55B /* Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895B5311F8E59500C6E55B /* Calendar.m */; };
+		2F895C2C11F8FA8F00C6E55B /* CalendarProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895C2A11F8FA8F00C6E55B /* CalendarProxy.h */; };
+		2F895C2D11F8FA8F00C6E55B /* CalendarProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895C2B11F8FA8F00C6E55B /* CalendarProxy.m */; };
+		2F895D2711F903D600C6E55B /* CheckmarkTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D1111F903D600C6E55B /* CheckmarkTile.h */; };
+		2F895D2811F903D600C6E55B /* CheckmarkTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D1211F903D600C6E55B /* CheckmarkTile.m */; };
+		2F895D2911F903D600C6E55B /* KCalendar_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D1311F903D600C6E55B /* KCalendar_Prefix.pch */; };
+		2F895D2A11F903D600C6E55B /* KLCalendarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D1411F903D600C6E55B /* KLCalendarModel.h */; };
+		2F895D2B11F903D600C6E55B /* KLCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D1511F903D600C6E55B /* KLCalendarModel.m */; };
+		2F895D2C11F903D600C6E55B /* KLCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D1611F903D600C6E55B /* KLCalendarView.h */; };
+		2F895D2D11F903D600C6E55B /* KLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D1711F903D600C6E55B /* KLCalendarView.m */; };
+		2F895D2E11F903D600C6E55B /* KLColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D1811F903D600C6E55B /* KLColors.h */; };
+		2F895D2F11F903D600C6E55B /* KLColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D1911F903D600C6E55B /* KLColors.m */; };
+		2F895D3011F903D600C6E55B /* KLDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D1A11F903D600C6E55B /* KLDate.h */; };
+		2F895D3111F903D600C6E55B /* KLDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D1B11F903D600C6E55B /* KLDate.m */; };
+		2F895D3211F903D600C6E55B /* KLGraphicsUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D1C11F903D600C6E55B /* KLGraphicsUtils.h */; };
+		2F895D3311F903D600C6E55B /* KLGraphicsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D1D11F903D600C6E55B /* KLGraphicsUtils.m */; };
+		2F895D3411F903D600C6E55B /* KLGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D1E11F903D600C6E55B /* KLGridView.h */; };
+		2F895D3511F903D600C6E55B /* KLGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D1F11F903D600C6E55B /* KLGridView.m */; };
+		2F895D3611F903D600C6E55B /* KLTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D2011F903D600C6E55B /* KLTile.h */; };
+		2F895D3711F903D600C6E55B /* KLTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D2111F903D600C6E55B /* KLTile.m */; };
+		2F895D3811F903D600C6E55B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D2311F903D600C6E55B /* main.m */; };
+		2F895D3911F903D600C6E55B /* THCalendarInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F895D2511F903D600C6E55B /* THCalendarInfo.h */; };
+		2F895D3A11F903D600C6E55B /* THCalendarInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F895D2611F903D600C6E55B /* THCalendarInfo.m */; };
+		2FD9F909123FD06800632593 /* MroBinarySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD9F907123FD06800632593 /* MroBinarySearch.h */; };
+		2FD9F90A123FD06800632593 /* MroBinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9F908123FD06800632593 /* MroBinarySearch.m */; };
+		2FD9F90D123FD0D900632593 /* KLDateSort.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD9F90B123FD0D900632593 /* KLDateSort.h */; };
+		2FD9F90E123FD0D900632593 /* KLDateSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9F90C123FD0D900632593 /* KLDateSort.m */; };
+		2FF7BC2C122F3F2F00DD1ECA /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF7BC2B122F3F2F00DD1ECA /* EventKit.framework */; };
+		AA747D9F0F9514B9006C5449 /* CalendarModule_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* CalendarModule_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* CalendarModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarModule.h; path = Classes/CalendarModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* CalendarModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarModule.m; path = Classes/CalendarModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		2F895AD811F8B5ED00C6E55B /* TiCalendarViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiCalendarViewProxy.h; sourceTree = "<group>"; };
+		2F895AD911F8B5ED00C6E55B /* TiCalendarViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiCalendarViewProxy.m; sourceTree = "<group>"; };
+		2F895ADC11F8B60300C6E55B /* TiCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiCalendarView.h; sourceTree = "<group>"; };
+		2F895ADD11F8B60300C6E55B /* TiCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiCalendarView.m; sourceTree = "<group>"; };
+		2F895B5211F8E59500C6E55B /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
+		2F895B5311F8E59500C6E55B /* Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calendar.m; sourceTree = "<group>"; };
+		2F895C2A11F8FA8F00C6E55B /* CalendarProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarProxy.h; sourceTree = "<group>"; };
+		2F895C2B11F8FA8F00C6E55B /* CalendarProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarProxy.m; sourceTree = "<group>"; };
+		2F895D1111F903D600C6E55B /* CheckmarkTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckmarkTile.h; sourceTree = "<group>"; };
+		2F895D1211F903D600C6E55B /* CheckmarkTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckmarkTile.m; sourceTree = "<group>"; };
+		2F895D1311F903D600C6E55B /* KCalendar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCalendar_Prefix.pch; sourceTree = "<group>"; };
+		2F895D1411F903D600C6E55B /* KLCalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCalendarModel.h; sourceTree = "<group>"; };
+		2F895D1511F903D600C6E55B /* KLCalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCalendarModel.m; sourceTree = "<group>"; };
+		2F895D1611F903D600C6E55B /* KLCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCalendarView.h; sourceTree = "<group>"; };
+		2F895D1711F903D600C6E55B /* KLCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCalendarView.m; sourceTree = "<group>"; };
+		2F895D1811F903D600C6E55B /* KLColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLColors.h; sourceTree = "<group>"; };
+		2F895D1911F903D600C6E55B /* KLColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLColors.m; sourceTree = "<group>"; };
+		2F895D1A11F903D600C6E55B /* KLDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDate.h; sourceTree = "<group>"; };
+		2F895D1B11F903D600C6E55B /* KLDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDate.m; sourceTree = "<group>"; };
+		2F895D1C11F903D600C6E55B /* KLGraphicsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLGraphicsUtils.h; sourceTree = "<group>"; };
+		2F895D1D11F903D600C6E55B /* KLGraphicsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLGraphicsUtils.m; sourceTree = "<group>"; };
+		2F895D1E11F903D600C6E55B /* KLGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLGridView.h; sourceTree = "<group>"; };
+		2F895D1F11F903D600C6E55B /* KLGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLGridView.m; sourceTree = "<group>"; };
+		2F895D2011F903D600C6E55B /* KLTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTile.h; sourceTree = "<group>"; };
+		2F895D2111F903D600C6E55B /* KLTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTile.m; sourceTree = "<group>"; };
+		2F895D2211F903D600C6E55B /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		2F895D2311F903D600C6E55B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F895D2411F903D600C6E55B /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
+		2F895D2511F903D600C6E55B /* THCalendarInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCalendarInfo.h; sourceTree = "<group>"; };
+		2F895D2611F903D600C6E55B /* THCalendarInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCalendarInfo.m; sourceTree = "<group>"; };
+		2FD9F907123FD06800632593 /* MroBinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MroBinarySearch.h; path = ArrayExtensions/MroBinarySearch.h; sourceTree = "<group>"; };
+		2FD9F908123FD06800632593 /* MroBinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MroBinarySearch.m; path = ArrayExtensions/MroBinarySearch.m; sourceTree = "<group>"; };
+		2FD9F90B123FD0D900632593 /* KLDateSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDateSort.h; sourceTree = "<group>"; };
+		2FD9F90C123FD0D900632593 /* KLDateSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDateSort.m; sourceTree = "<group>"; };
+		2FD9F921123FD1C600632593 /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		2FF7BC2B122F3F2F00DD1ECA /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		AA747D9E0F9514B9006C5449 /* CalendarModule_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarModule_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libCalendarModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCalendarModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				2FF7BC2C122F3F2F00DD1ECA /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libCalendarModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* CalendarModule */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9F904123FCFFE00632593 /* ArrayExtensions */,
+				2F895D1011F903D600C6E55B /* Calendar */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				2FD9F921123FD1C600632593 /* Test-Info.plist */,
+			);
+			name = CalendarModule;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				2FF7BC2B122F3F2F00DD1ECA /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F895C2A11F8FA8F00C6E55B /* CalendarProxy.h */,
+				2F895C2B11F8FA8F00C6E55B /* CalendarProxy.m */,
+				2F895B5211F8E59500C6E55B /* Calendar.h */,
+				2F895B5311F8E59500C6E55B /* Calendar.m */,
+				24DD6CF71134B3F500162E58 /* CalendarModule.h */,
+				24DD6CF81134B3F500162E58 /* CalendarModule.m */,
+				2F895AD811F8B5ED00C6E55B /* TiCalendarViewProxy.h */,
+				2F895AD911F8B5ED00C6E55B /* TiCalendarViewProxy.m */,
+				2F895ADC11F8B60300C6E55B /* TiCalendarView.h */,
+				2F895ADD11F8B60300C6E55B /* TiCalendarView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2F895D1011F903D600C6E55B /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2F895D1111F903D600C6E55B /* CheckmarkTile.h */,
+				2F895D1211F903D600C6E55B /* CheckmarkTile.m */,
+				2F895D1311F903D600C6E55B /* KCalendar_Prefix.pch */,
+				2F895D1411F903D600C6E55B /* KLCalendarModel.h */,
+				2F895D1511F903D600C6E55B /* KLCalendarModel.m */,
+				2F895D1611F903D600C6E55B /* KLCalendarView.h */,
+				2F895D1711F903D600C6E55B /* KLCalendarView.m */,
+				2F895D1811F903D600C6E55B /* KLColors.h */,
+				2F895D1911F903D600C6E55B /* KLColors.m */,
+				2F895D1A11F903D600C6E55B /* KLDate.h */,
+				2F895D1B11F903D600C6E55B /* KLDate.m */,
+				2F895D1C11F903D600C6E55B /* KLGraphicsUtils.h */,
+				2F895D1D11F903D600C6E55B /* KLGraphicsUtils.m */,
+				2F895D1E11F903D600C6E55B /* KLGridView.h */,
+				2F895D1F11F903D600C6E55B /* KLGridView.m */,
+				2F895D2011F903D600C6E55B /* KLTile.h */,
+				2F895D2111F903D600C6E55B /* KLTile.m */,
+				2F895D2211F903D600C6E55B /* left-arrow.png */,
+				2F895D2311F903D600C6E55B /* main.m */,
+				2F895D2411F903D600C6E55B /* right-arrow.png */,
+				2F895D2511F903D600C6E55B /* THCalendarInfo.h */,
+				2F895D2611F903D600C6E55B /* THCalendarInfo.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		2FD9F904123FCFFE00632593 /* ArrayExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9F907123FD06800632593 /* MroBinarySearch.h */,
+				2FD9F908123FD06800632593 /* MroBinarySearch.m */,
+				2FD9F90B123FD0D900632593 /* KLDateSort.h */,
+				2FD9F90C123FD0D900632593 /* KLDateSort.m */,
+			);
+			name = ArrayExtensions;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* CalendarModule_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* CalendarModule_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* CalendarModule.h in Headers */,
+				2F895ADA11F8B5ED00C6E55B /* TiCalendarViewProxy.h in Headers */,
+				2F895ADE11F8B60300C6E55B /* TiCalendarView.h in Headers */,
+				2F895B5411F8E59500C6E55B /* Calendar.h in Headers */,
+				2F895C2C11F8FA8F00C6E55B /* CalendarProxy.h in Headers */,
+				2F895D2711F903D600C6E55B /* CheckmarkTile.h in Headers */,
+				2F895D2911F903D600C6E55B /* KCalendar_Prefix.pch in Headers */,
+				2F895D2A11F903D600C6E55B /* KLCalendarModel.h in Headers */,
+				2F895D2C11F903D600C6E55B /* KLCalendarView.h in Headers */,
+				2F895D2E11F903D600C6E55B /* KLColors.h in Headers */,
+				2F895D3011F903D600C6E55B /* KLDate.h in Headers */,
+				2F895D3211F903D600C6E55B /* KLGraphicsUtils.h in Headers */,
+				2F895D3411F903D600C6E55B /* KLGridView.h in Headers */,
+				2F895D3611F903D600C6E55B /* KLTile.h in Headers */,
+				2F895D3911F903D600C6E55B /* THCalendarInfo.h in Headers */,
+				2FD9F909123FD06800632593 /* MroBinarySearch.h in Headers */,
+				2FD9F90D123FD0D900632593 /* KLDateSort.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* CalendarModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "CalendarModule" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarModule;
+			productName = CalendarModule;
+			productReference = D2AAC07E0554694100DB518D /* libCalendarModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "CalendarModule" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* CalendarModule */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* CalendarModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* CalendarModule.m in Sources */,
+				2F895ADB11F8B5ED00C6E55B /* TiCalendarViewProxy.m in Sources */,
+				2F895ADF11F8B60300C6E55B /* TiCalendarView.m in Sources */,
+				2F895B5511F8E59500C6E55B /* Calendar.m in Sources */,
+				2F895C2D11F8FA8F00C6E55B /* CalendarProxy.m in Sources */,
+				2F895D2811F903D600C6E55B /* CheckmarkTile.m in Sources */,
+				2F895D2B11F903D600C6E55B /* KLCalendarModel.m in Sources */,
+				2F895D2D11F903D600C6E55B /* KLCalendarView.m in Sources */,
+				2F895D2F11F903D600C6E55B /* KLColors.m in Sources */,
+				2F895D3111F903D600C6E55B /* KLDate.m in Sources */,
+				2F895D3311F903D600C6E55B /* KLGraphicsUtils.m in Sources */,
+				2F895D3511F903D600C6E55B /* KLGridView.m in Sources */,
+				2F895D3711F903D600C6E55B /* KLTile.m in Sources */,
+				2F895D3811F903D600C6E55B /* main.m in Sources */,
+				2F895D3A11F903D600C6E55B /* THCalendarInfo.m in Sources */,
+				2FD9F90A123FD06800632593 /* MroBinarySearch.m in Sources */,
+				2FD9F90E123FD0D900632593 /* KLDateSort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/CalendarModule.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CalendarModule_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = CalendarModule;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/CalendarModule.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CalendarModule_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = CalendarModule;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "CalendarModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "CalendarModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
