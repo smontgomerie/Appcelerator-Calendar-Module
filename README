@@ -1,87 +1,54 @@
-Appcelerator Titanium iPhone Module Project
+= Appcelerator Calendar Module
 ===========================================
 
-This is a skeleton Titanium Mobile iPhone module project.  Modules can be 
-used to extend the functionality of Titanium by providing additional native
-code that is compiled into your application at build time and can expose certain
-APIs into JavaScript. 
+This is a module that displays an iPhone-like calendar widget, based on the work of Keith Lazuka, dba The Polypeptides .
 
-MODULE NAMING
+== Building
 --------------
 
-Choose a unique name for your module to not cause conflict with other third-party
-modules.  Typically, we recommend prefixing your module with a token that identifies
-your organization.  In the future, we may provide the ability to register your own
-top level namespaces.  Currently, all modules will be available only via the
-Titanium namespace.  For example, if your module is named `MyFirstModule`, you would
-access module APIs via the API: `Titanium.Myfirst`.  The module in the name will 
-automatically be removed when resolving your module.  Also, all characters after the 
-first are always lower-cased.
+First download the code:
+	git clone git@github.com:smontgomerie/Appcelerator-Calendar-Module.git
 
-COMPONENTS
------------
+	cd Appcelerator-Calendar-Module
 
-Components that are exposed by your module must follow a special naming convention.
-A component (widget, proxy, etc) must be named with the pattern:
+Then build the code.
+	./build.py
 
-	Ti<ModuleName><ComponentName>Proxy
+Install the calendar into your app.
+	cp calendarmodule-iphone-xxx.zip ~/Library/Application\ Support/Titanium/
 
-For example, if you component was called Foo, your proxy would be named:
+You'll need to at least touch your iPhone app before including it (assuming you're building with Xcode, not Titanium).
 
-	TiMyfirstFooProxy
+== Basic Usage
+---------------
+
+To add a view: 
+
+    var calendarView = Ti.Calendar.createView({
+        top:0
+        /*headerColor: "red",
+         calendarColor: "#aaa8a8"*/
+    });
+    calendarView.show();
+    win.add(calendarView);
+
+When a date is selected, a 'dateSelected' event is thrown:
+
+	calendarView.addEventListener('dateSelected', function(e) {
+        try {
+	       // Do something with the date
+       	} catch(e) {
+            Ti.API.info(e);
+        }
+    });
+
+The component is able to show that there is an event on a certain date with a dot icon.  To set which dates are set:
 	
-For view proxies or widgets, you must create both a view proxy and a view implementation. 
-If you widget was named proxy, you would create the following files:
-
-	TiMyfirstFooProxy.h
-	TiMyfirstFooProxy.m
-	TiMyfirstFoo.h
-	TiMyfirstFoo.m
+	var datesArray = [new Date()];
+	calendarView.setDates(datesArray);
 	
-The view implementation is named the same except it does contain the suffix `Proxy`.  
+You can also use the calendar to save a date (and this needs to be refactored):
 
-View implementations extend the Titanium base class `TiUIView`.  View Proxies extend the
-Titanium base class `TiUIViewProxy` or `TiUIWidgetProxy`.  
+	calendarView.saveEvent(start, end, event.summary, event.location, event.description);
 
-For proxies that are simply native objects that can be returned to JavaScript, you can 
-simply extend `TiProxy` and no view implementation is required.
-
-
-GET STARTED
-------------
-
-1. Edit manifest with the appropriate details about your module.
-2. Edit LICENSE to add your license details.
-3. Place any assets (such as PNG files) that are required in the assets folder.
-4. Edit the titanium.xcconfig and make sure you're building for the right Titanium version.
-5. Code and build.
-
-INSTALL YOUR MODULE
---------------------
-
-1. Run `build.py` which creates your distribution
-2. cd to `/Library/Application Support/Titanium`
-3. extract your zip into this folder
-
-REGISTER YOUR MODULE
----------------------
-
-Register your module with your application by editing `tiapp.xml` and adding your module.
-Example:
-
-<modules>
-	<module version="0.1">mymodule</module>
-</modules>
-
-When you run your project, the compiler will know automatically compile in your module
-dependencies and copy appropriate image assets into the application.
-
-DISTRIBUTING YOUR MODULE
--------------------------
-
-Currently, you will need to manually distribution your module distribution zip file directly.
-However, in the near future, we will make module distribution and sharing built-in to
-Titanium Developer!
-
-
-Cheers!
+That's pretty much it!  Any edits/improvements are appreciated.
